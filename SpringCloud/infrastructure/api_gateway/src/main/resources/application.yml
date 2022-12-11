@@ -1,0 +1,29 @@
+server:
+  port: 8222
+
+spring:
+  application:
+    name: service-gateway
+
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    gateway:
+      discovery:
+        locator:
+          enabled: true #使用服务发现路由
+      routes:
+        - id: service-book
+          uri: lb://service-book
+          predicates:
+            - Path=/book/**
+        - id: service-borrow
+          uri: lb://service-borrow
+          predicates:
+            - Path=/borrow/**
+        - id: service-user
+          uri: lb://service-user
+          predicates:
+            - Path=/user/**,/access/**

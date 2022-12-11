@@ -1,0 +1,18 @@
+2022-07-04 22:19:20.043 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-04 22:19:20.052 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-04 22:20:17.057 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'borrowController': Unsatisfied dependency expressed through field 'bookClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.gmy.borrow.client.bookClient': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: No fallback instance of type class com.gmy.borrow.client.bookFeignClient found for feign client service-book
+2022-07-04 22:20:58.319 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-04 22:20:58.327 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-04 22:21:04.700 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-04 22:21:04.705 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-04 22:21:22.640 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'borrowController': Unsatisfied dependency expressed through field 'bookClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.gmy.borrow.client.bookClient': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: No fallback instance of type class com.gmy.borrow.client.bookFeignClient found for feign client service-book
+2022-07-04 22:29:33.482 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-04 22:29:33.486 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-04 22:30:15.251 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-04 22:30:15.255 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-04 22:30:41.394 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-04 22:30:41.399 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-04 22:31:12.493 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-04 22:31:12.498 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-04 22:35:05.621 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-04 22:35:05.626 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
